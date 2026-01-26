@@ -28,20 +28,17 @@ sections:
       background:
         color: "#333333"
         image:
-          # Add your image background to `assets/media/`.
           filename: gradient.svg
-          filters:
-            brightness: 0.5
           size: cover
           position: center
           parallax: false
-      # Name heading sizing to accommodate long or short names
+
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
-      # Avatar customization
+        size: md
+
       avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: large
+        shape: circle
   - block: markdown
     content:
       title: 'Recent news'
