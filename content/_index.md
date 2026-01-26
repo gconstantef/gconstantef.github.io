@@ -8,9 +8,7 @@ type: landing
 design:
   # Default section spacing
   spacing: '6rem'
-  css_class: dark
   background:
-    color: "#333333"
     image:
       filename: gradient.svg
       filters:
