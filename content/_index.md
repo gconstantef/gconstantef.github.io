@@ -26,9 +26,9 @@ sections:
         text: Download CV
         url: uploads/CV_Gonzalo_Constante.pdf
       headings:
-        about: ''
+        about: About me
         education: ''
-        interests: ''
+        interests: Research interests
     design:
       name:
         size: md
