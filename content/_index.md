@@ -23,17 +23,17 @@ sections:
         about: ''
         education: ''
         interests: ''
-      design:
-        css_class: dark
-        background:
-          color: "#333333"
-          image:
-            filename: gradient.svg
-            filters:
-              brightness: 0.5
-            size: cover
-            position: center
-            parallax: false
+    design:
+      css_class: dark
+      background:
+        color: "#333333"
+        image:
+          filename: gradient.svg
+          filters:
+            brightness: 0.5
+          size: cover
+          position: center
+          parallax: false
 
 
       # Name heading sizing to accommodate long or short names
