@@ -291,5 +291,5 @@ hugoblox:
     affiliate_code: ""
 
   css:
-  custom:
-    - css/custom.css
+    custom:
+      - css/custom.css
