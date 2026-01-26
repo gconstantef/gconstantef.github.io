@@ -18,6 +18,9 @@ design:
       size: cover
       position: center
       parallax: false
+    overlay:
+      color: "#000000"
+      opacity: 0.35
 
 sections:
   - block: resume-biography-3
