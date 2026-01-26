@@ -26,7 +26,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: "#333333"
+        color: "#ff00ff"
         image:
           filename: gradient.svg
           size: cover
