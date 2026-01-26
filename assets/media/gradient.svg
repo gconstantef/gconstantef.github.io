@@ -24,9 +24,6 @@
 		<stop  offset="0.9935" style="stop-color:#A84EF2"/>
 		<stop  offset="1" style="stop-color:#AE51FA"/>
 	</linearGradient>
-	<rect style="fill:url(#SVGID_1_);" width="750" height="500" />
-	<!-- dark overlay (NEW) -->
-	<rect width="750" height="500" fill="#000000" opacity="0.30"/>
 </g>
 <g id="OBJECTS">
 	<g>
@@ -717,6 +714,7 @@
 	</g>
 </g>
 </svg>
+
 
 
 
