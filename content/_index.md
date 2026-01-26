@@ -11,14 +11,9 @@ design:
   background:
     image:
       filename: gradient.svg
-      filters:
-        brightness: 0.25
       size: cover
       position: center
       parallax: false
-    overlay:
-      color: "#000000"
-      opacity: 0.35
 
 sections:
   - block: resume-biography-3
