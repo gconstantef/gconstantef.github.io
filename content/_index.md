@@ -8,6 +8,14 @@ type: landing
 design:
   # Default section spacing
   spacing: '6rem'
+  background:
+    image:
+      filename: gradient.svg
+      filters:
+        brightness: 0.5
+      size: cover
+      position: center
+      parallax: false
 
 sections:
   - block: resume-biography-3
@@ -25,13 +33,8 @@ sections:
         interests: ''
     design:
       background:
-        image:
-          filename: gradient.svg
-          filters:
-            brightness: 0.5
-          size: cover
-          position: center
-          parallax: false
+        gradient_mesh:
+          enable: true
 
       name:
         size: md
