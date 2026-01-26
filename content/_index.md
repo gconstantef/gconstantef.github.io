@@ -24,9 +24,16 @@ sections:
         education: ''
         interests: ''
     design:
+      css_class: dark
       background:
-        gradient_mesh:
-          enable: true
+        color: "#333333"
+        image:
+          filename: gradient.svg
+          filters:
+            brightness: 0.5
+          size: cover
+          position: center
+          parallax: false
 
       name:
         size: md
