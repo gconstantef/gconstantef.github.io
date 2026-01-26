@@ -28,6 +28,7 @@ sections:
       background:
         color: "#333333"
         image:
+          # Add your image background to `assets/media/`.
           filename: gradient.svg
           filters:
             brightness: 0.5
