@@ -41,7 +41,7 @@ sections:
       title: 'Recent news'
       subtitle: ''
       text: |
-        <div style="font-size: 14px;">
+        <div style="font-size: 16px;">
           <ul>
           <li> <strong>Jan. 21, 2026:</strong> Accepted! Our paper “A Quadratically-Constrained Convex Approximation for the AC Optimal Power Flow,” coauthored with Can Li, has been accepted for publication in <em>Optimization and Engineering</em>.</li>
           <li> <strong>Jan. 1, 2026:</strong> I joined the Department of Electrical, Computer and Energy Engineering at CU Boulder as an Assistant Professor!</li>
