@@ -1,6 +1,12 @@
-.section-resume-biography-3 {
-  background-image: url("/media/gradient.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+/* Resume bio hero background (covers multiple HugoBlox versions) */
+.section-resume-biography-3,
+.block-resume-biography-3,
+.wg-resume-biography-3,
+[data-block="resume-biography-3"],
+section[id*="resume-biography"],
+section[class*="resume-biography"] {
+  background-image: url("/media/gradient.svg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
 }
