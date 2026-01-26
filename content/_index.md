@@ -24,10 +24,17 @@ sections:
         education: ''
         interests: ''
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      css_class: dark
       background:
-        gradient_mesh:
-          enable: true
+        color: "#333333"
+        image:
+          # Add your image background to `assets/media/`.
+          filename: gradient.svg
+          filters:
+            brightness: 0.5
+          size: cover
+          position: center
+          parallax: false
 
       # Name heading sizing to accommodate long or short names
       name:
