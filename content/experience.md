@@ -1,5 +1,5 @@
 ---
-title: 'Experience'
+title: 'Constante bio'
 date: 2023-10-24
 type: landing
 
@@ -10,6 +10,26 @@ design:
 
 # Page sections
 sections:
+  - block: resume-biography-3
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: me
+      text: ''
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV
+        url: uploads/CV_Gonzalo_Constante.pdf
+      headings:
+        about: About me
+        education: ''
+        interests: Research interests
+    design:
+      name:
+        size: md
+
+      avatar:
+        size: large
+        shape: circle
   - block: resume-experience
     content:
       username: me
