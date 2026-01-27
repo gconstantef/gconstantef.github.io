@@ -28,8 +28,8 @@ sections:
         size: md
 
       avatar:
-        size: large
-        shape: circle
+        size: xl
+        shape: square
   - block: markdown
     content:
       title: 'Recent news'
