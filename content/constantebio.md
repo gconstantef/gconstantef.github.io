@@ -6,6 +6,12 @@ type: landing
 design:
   # Default section spacing
   spacing: '6rem'
+  background:
+    image:
+      filename: gradient.svg
+      size: cover
+      position: center
+      parallax: false
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
