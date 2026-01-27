@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Decision and Energy Systems Group @ CU Boulder"
+    name: "Decision and Energy Systems Group"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -22,9 +22,6 @@ hugoblox:
     tagline: ""
     # Site meta description for search engines and social sharing
     description: "We are a research group in the Department of Electrical, Computer, and Energy Engineering at the University of Colorado Boulder. Our work focuses on the development of data-driven and model-based theory, algorithms, and computational tools at the intersection of optimization, machine learning, and energy systems. We study large-scale decision-making problems under uncertainty, motivated by challenges in power system operation, planning, and market design, while developing methods that are broadly applicable across diverse scientific and industrial domains."
-    # Social accounts (used for meta tags like Twitter Cards)
-    social:
-      twitter: "gconstantef"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
