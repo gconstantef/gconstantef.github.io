@@ -23,7 +23,8 @@ sections:
       filters:
         folders:
           - publications
-        exclude_featured: true
+        exclude_featured: false
+      limit: 50      
     design:
       view: citation
 ---
