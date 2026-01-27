@@ -55,5 +55,6 @@ sections:
 We develop structure-exploiting formulations and algorithms that leverage properties such as network topology, sparsity, and decomposition across time and scenarios. These ideas are used to build scalable solution approaches and computational workflows that preserve essential operational, physical, and economic features of the underlying problems.
 
 The proposed modeling and algorithmic tools are intended to apply broadly to large-scale constrained optimization problems, including those arising in supply chains, infrastructure planning, and resource allocation.
-
+      design:
+        columns: '1'
 ---
