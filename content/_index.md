@@ -9,33 +9,16 @@ design:
   # Default section spacing
   spacing: '6rem'
   background:
-    image:
-      filename: gradient.svg
-      size: cover
-      position: center
-      parallax: false
+    gradient: true
 
 sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: me
+      username: group
       text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/CV_Gonzalo_Constante.pdf
       headings:
-        about: About me
-        education: ''
-        interests: Research interests
-    design:
-      name:
-        size: md
-
-      avatar:
-        size: large
-        shape: circle
+        about: Welcome to our group
   - block: markdown
     content:
       title: 'Recent news'
