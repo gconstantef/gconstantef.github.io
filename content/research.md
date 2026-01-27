@@ -44,4 +44,16 @@ sections:
         We develop decision-focused and optimization-aware learning methods that embed physical constraints, feasibility requirements, and economic structure into the learning process. These approaches aim to deliver fast, interpretable, and reliable decision policies for problems where classical optimization may be computationally expensive or insufficiently adaptive, with applications in power system operations and planning, stochastic and robust optimization, and real-time control under uncertainty.
     design:
       columns: '1'
+  
+  - block: markdown
+    content:
+      title: 'Large-scale Optimization'
+      subtitle: ''
+      text: |
+        This research area focuses on how large-scale optimization problems are formulated and solved when problem size, uncertainty, and structure make direct approaches impractical. A central theme is understanding how modeling decisions influence computational tractability, and how this interplay can be exploited to design more efficient solution methods.
+
+We develop structure-exploiting formulations and algorithms that leverage properties such as network topology, sparsity, and decomposition across time and scenarios. These ideas are used to build scalable solution approaches and computational workflows that preserve essential operational, physical, and economic features of the underlying problems.
+
+The proposed modeling and algorithmic tools are intended to apply broadly to large-scale constrained optimization problems, including those arising in supply chains, infrastructure planning, and resource allocation.
+
 ---
