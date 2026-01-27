@@ -18,9 +18,8 @@ sections:
       title: 'Research'
       subtitle: ''
       text: |
-        My research develops **models, theory, and algorithms** for the **reliable, economical, and resilient operation and planning of large-scale energy systems**. The work lies at the intersection of **power systems, mathematical optimization, and machine learning**, with an emphasis on approaches that remain grounded in **physical and operational realities**.
-
-        Below are two main research directions. I am currently building dedicated project pages for selected topics and will add figures and short summaries here soon.
+        My research develops models, theory, and algorithms for reliable and economical decision-making in large-scale systems. The work lies at the intersection of mathematical optimization, machine learning, and control, with an emphasis on methods that remain grounded in constraints, uncertainty, and operational structure. While energy and power systems are a central application domain, the methods extend to a broader class of networked and constrained decision problems.
+        Below are two main research directions. I am currently building dedicated project pages for selected topics.
     design:
       columns: '1'
 
@@ -29,9 +28,9 @@ sections:
       title: 'Power and Energy Systems'
       subtitle: ''
       text: |
-        This research area focuses on improving the **operation, planning, and resilience of electric power systems** in the presence of increasing uncertainty and structural change. We study how **flexibility from a wide range of resources**, including energy storage, flexible industrial loads, buildings, and data centers, can be systematically integrated into grid operations to enhance performance and robustness, particularly as renewable generation continues to grow.
+        This research area focuses on improving the operation, planning, and resilience of modern power systems in the presence of increasing uncertainty and structural change. We study how flexibility from a wide range of resources, including energy storage, flexible industrial loads, buildings, and data centers, can be systematically integrated into grid operations to enhance performance and robustness, particularly as renewable generation and demand electrification continues to grow.
 
-        Methodologically, we develop **optimization and control formulations** that combine **physical network constraints** with **market mechanisms operating across multiple time scales**, from day-ahead scheduling to real-time dispatch and ancillary services. These models are used to analyze **operational strategies, investment decisions, and siting problems**, and are evaluated using **high-fidelity simulations** based on detailed grid models and real system data, including stressed and extreme operating conditions.
+        Methodologically, we develop optimization, learning, and control formulations that combine physical network constraints with market mechanisms operating across multiple time scales, from day-ahead scheduling to real-time dispatch and ancillary services. These models are used to analyze operational strategies, investment decisions, and siting problems, and are evaluated using high-fidelity simulations based on detailed grid models and real system data, including stressed and extreme operating conditions.
     design:
       columns: '1'
 
@@ -40,9 +39,9 @@ sections:
       title: 'Machine Learning and Artificial Intelligence'
       subtitle: ''
       text: |
-        This research direction explores **machine learning and artificial intelligence techniques** for **decision-making in large-scale, constrained engineering systems**. Rather than focusing solely on predictive accuracy, the emphasis is on learning models that are **directly aligned with downstream optimization, control, and planning objectives**, enabling data-driven decisions that remain feasible and operationally meaningful.
+        This research direction explores machine learning and artificial intelligence techniques for constrained decision-making. Rather than focusing solely on predictive accuracy, the emphasis is on learning models that are directly aligned with downstream optimization, control, and planning objectives, enabling data-driven decisions that remain feasible and operationally meaningful.
 
-        We develop **decision-focused and optimization-aware learning methods** that embed **physical constraints, feasibility requirements, and economic structure** into the learning process. These approaches aim to deliver **fast, interpretable, and reliable decision policies** for problems where classical optimization may be computationally expensive or insufficiently adaptive, with applications in **power system operations and planning**, **stochastic and robust optimization**, and **real-time control under uncertainty**.
+        We develop decision-focused and optimization-aware learning methods that embed physical constraints, feasibility requirements, and economic structure into the learning process. These approaches aim to deliver fast, interpretable, and reliable decision policies for problems where classical optimization may be computationally expensive or insufficiently adaptive, with applications in power system operations and planning, stochastic and robust optimization, and real-time control under uncertainty.
     design:
       columns: '1'
 ---
