@@ -28,7 +28,7 @@ sections:
         size: md
 
       avatar:
-        size: xl
+        size: large
         shape: circle
   - block: markdown
     content:
