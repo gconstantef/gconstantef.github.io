@@ -17,7 +17,7 @@ design:
 
 # Page sections
 sections:
-  - block: resume-biography
+  - block: resume-biography-2
     content:
       username: group
       text: ''
