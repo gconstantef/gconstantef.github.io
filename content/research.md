@@ -5,6 +5,12 @@ type: landing
 
 design:
   spacing: '5rem'
+  background:
+    image:
+      filename: gradient.svg
+      size: cover
+      position: center
+      parallax: false
 
 sections:
   - block: markdown
