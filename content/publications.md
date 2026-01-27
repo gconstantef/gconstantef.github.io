@@ -1,6 +1,10 @@
 ---
 title: Publications
 type: landing
+
+design:
+  spacing: '5rem'
+
 sections:
   - block: collection
     content:
@@ -15,11 +19,11 @@ sections:
 
   - block: collection
     content:
-      title: All Publications
+      title: Publications
       filters:
         folders:
           - publications
-        exclude_featured: false   # set to true if you DON'T want featured repeated below
+        exclude_featured: true
     design:
-      view: citation
+      view: list
 ---
