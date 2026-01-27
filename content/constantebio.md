@@ -27,10 +27,6 @@ sections:
     design:
       name:
         size: md
-      background:
-        gradient_mesh:
-          enable: true
-
       avatar:
         size: large
         shape: circle
