@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Gonzalo Constante"
+    name: "Decision and Energy Systems Group @ CU Boulder"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
+    description: "We are a research group in the Department of Electrical, Computer, and Energy Engineering at the University of Colorado Boulder. Our work focuses on the development of data-driven and model-based theory, algorithms, and computational tools at the intersection of optimization, machine learning, and energy systems. We study large-scale decision-making problems under uncertainty, motivated by challenges in power system operation, planning, and market design, while developing methods that are broadly applicable across diverse scientific and industrial domains."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "gconstantef"              # Twitter/X handle for Twitter Cards (without @)
@@ -129,7 +129,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    title: "Decision and Energy Systems Group"
     # For local_business identity type only
     location:
       address:
@@ -290,6 +290,4 @@ hugoblox:
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
 
-  css:
-    custom:
-      - css/custom.css
+favicon: cu_logo.png
