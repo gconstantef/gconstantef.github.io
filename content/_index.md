@@ -1,21 +1,35 @@
 ---
-# Leave the homepage title empty to use the site title
-title: ''
-summary: ''
-date: 2022-10-24
+title: 'Constante bio'
+date: 2023-10-24
 type: landing
 
-sections:
-  - block: markdown
-    content:
-      title: Welcome to our group
-      subtitle: ''
-      text: |
-        We are a research group in the Department of Electrical, Computer, and Energy Engineering at the University of Colorado Boulder. Our work focuses on the development of data-driven and model-based theory, algorithms, and computational tools at the intersection of optimization, machine learning, and energy systems.
+design:
+  # Default section spacing
+  spacing: '6rem'
+  background:
+    image:
+      filename: gradient.svg
+      size: cover
+      position: center
+      parallax: false
 
-        We study large-scale decision-making problems under uncertainty, motivated by challenges in power system operation, planning, and market design, while developing methods that are broadly applicable across diverse scientific and industrial domains.
+# Note: `username` refers to the user's folder name in `content/authors/`
+
+# Page sections
+sections:
+  - block: resume-biography
+    content:
+      username: group
+      text: ''
+      headings:
+        about: Welcome!
     design:
-      columns: '1'
+      name:
+        size: md
+
+      avatar:
+        size: large
+        shape: circle
   - block: markdown
     content:
       title: 'Recent news'
