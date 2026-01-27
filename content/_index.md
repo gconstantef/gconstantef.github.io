@@ -5,20 +5,17 @@ summary: ''
 date: 2022-10-24
 type: landing
 
-design:
-  # Default section spacing
-  spacing: '6rem'
-  background:
-    gradient: true
-
 sections:
-  - block: resume-biography-3
+  - block: markdown
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: group
-      text: ''
-      headings:
-        about: Welcome to our group
+      title: Welcome to our group
+      subtitle: ''
+      text: |
+        We are a research group in the Department of Electrical, Computer, and Energy Engineering at the University of Colorado Boulder. Our work focuses on the development of data-driven and model-based theory, algorithms, and computational tools at the intersection of optimization, machine learning, and energy systems.
+
+        We study large-scale decision-making problems under uncertainty, motivated by challenges in power system operation, planning, and market design, while developing methods that are broadly applicable across diverse scientific and industrial domains.
+    design:
+      columns: '1'
   - block: markdown
     content:
       title: 'Recent news'
