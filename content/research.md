@@ -50,11 +50,12 @@ sections:
       title: 'Large-scale Optimization'
       subtitle: ''
       text: |
-        This research area focuses on how large-scale optimization problems are formulated and solved when problem size, uncertainty, and structure make direct approaches impractical. A central theme is understanding how modeling decisions influence computational tractability, and how this interplay can be exploited to design more efficient solution methods.
+        This research area examines how large-scale optimization problems can be formulated and solved when problem size, uncertainty, temporal resolution, or structural complexity render direct solution approaches impractical. A central theme is understanding how modeling choices affect computational tractability, and how this relationship can be exploited to design more efficient and reliable solution methods.
 
-        We develop structure-exploiting formulations and algorithms that leverage properties such as network topology, sparsity, and decomposition across time and scenarios. These ideas are used to build scalable solution approaches and computational workflows that preserve essential operational, physical, and economic features of the underlying problems.
+        We develop structure-aware formulations and algorithms that exploit properties such as network topology, sparsity, and decomposition across time and scenarios. These ideas support scalable solution strategies and computational pipelines that preserve key operational, physical, and economic characteristics of the underlying problems.
 
-        The proposed modeling and algorithmic tools are intended to apply broadly to large-scale constrained optimization problems, including those arising in supply chains, infrastructure planning, and resource allocation.
+        The resulting modeling and algorithmic tools are designed to apply broadly to large-scale constrained optimization problems, including those arising in supply chains, infrastructure planning, and resource allocation.
+
       design:
         columns: '1'
 ---
