@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: false
 name:
-  display: Gonzalo Constante
+  display: Gonzalo E. Constante
   given: Gonzalo
   family: Constante
   alternate: ''  # Example: 王伟
