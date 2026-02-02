@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: group
 is_owner: true
 name:
-  display: Decision Intelligence
+  display: Decision Intelligence Lab
   given: ''
   family: ''
   alternate: ''  # Example: 王伟
