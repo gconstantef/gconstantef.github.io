@@ -24,7 +24,7 @@ sections:
         folders:
           - publications
         exclude_featured: false
-      limit: 50      
+      count: 0     
     design:
       view: citation
 ---
