@@ -18,8 +18,9 @@ sections:
       title: 'Research'
       subtitle: ''
       text: |
-        My research develops models, theory, and algorithms for reliable and economical decision-making in large-scale systems. The work lies at the intersection of mathematical optimization, machine learning, and control, with an emphasis on methods that remain grounded in constraints, uncertainty, and operational structure. While energy and power systems are a central application domain, the methods extend to a broader class of networked and constrained decision problems.
-        Below are two main research directions. I am currently building dedicated project pages for selected topics.
+        My research develops models, theory, and algorithms for constrained decision-making in large-scale networked systems under uncertainty. The work lies at the intersection of mathematical optimization, machine learning, and control, with an emphasis on approaches that remain grounded in physical constraints, operational structure, and tractable computation. While power and energy systems are a central application domain, the methods are designed to extend to a broader class of networked and constrained decision problems.
+
+        A current focus of my research is the development of adaptive low-fidelity surrogate models that approximate complex steady-state and dynamic system behavior while remaining compatible with large-scale optimization and learning pipelines. This includes work on parametric surrogate modeling, decomposition and stochastic optimization algorithms with adaptive models, and graph-based learning methods for transferring these models across networks, operating regimes, and decision tasks.
     design:
       columns: '1'
 
@@ -28,9 +29,9 @@ sections:
       title: 'Power and Energy Systems'
       subtitle: ''
       text: |
-        This research area focuses on improving the operation, planning, and resilience of modern power systems in the presence of increasing uncertainty and structural change. We study how flexibility from a wide range of resources, including energy storage, flexible industrial loads, buildings, and data centers, can be systematically integrated into grid operations to enhance performance and robustness, particularly as renewable generation and demand electrification continues to grow.
+        This research area focuses on improving the operation, planning, and resilience of modern power systems in the presence of increasing uncertainty, reduced inertia, and structural changes. A central goal is to incorporate richer physical behavior into decision-making models, including both nonlinear steady-state network constraints and dynamic phenomena such as transient stability, without losing computational tractability.
 
-        Methodologically, we develop optimization, learning, and control formulations that combine physical network constraints with market mechanisms operating across multiple time scales, from day-ahead scheduling to real-time dispatch and ancillary services. These models are used to analyze operational strategies, investment decisions, and siting problems, and are evaluated using high-fidelity simulations based on detailed grid models and real system data, including stressed and extreme operating conditions.
+        To this end, I develop adaptive surrogate models that approximate AC network behavior and generator dynamic response while preserving the structure needed for planning and operational optimization. These models are used to study stochastic and security-constrained decision problems arising in renewable-rich grids, including scheduling, dispatch, flexibility integration, and infrastructure planning. The resulting methods aim to support reliability- and stability-aware decision-making across multiple time scales using detailed grid models and realistic operating scenarios.
     design:
       columns: '1'
 
@@ -39,9 +40,9 @@ sections:
       title: 'Machine Learning and Artificial Intelligence'
       subtitle: ''
       text: |
-        This research direction explores machine learning and artificial intelligence techniques for constrained decision-making. Rather than focusing solely on predictive accuracy, the emphasis is on learning models that are directly aligned with downstream optimization, control, and planning objectives, enabling data-driven decisions that remain feasible and operationally meaningful.
+        This research direction explores machine learning methods for optimization and control in constrained systems. Rather than focusing only on predictive accuracy, the emphasis is on learning models that directly support downstream decision-making and remain feasible, interpretable, and operationally meaningful.
 
-        We develop decision-focused and optimization-aware learning methods that embed physical constraints, feasibility requirements, and economic structure into the learning process. These approaches aim to deliver fast, interpretable, and reliable decision policies for problems where classical optimization may be computationally expensive or insufficiently adaptive, with applications in power system operations and planning, stochastic and robust optimization, and real-time control under uncertainty.
+        A major theme is the use of graph-based learning to predict or tune surrogate models across heterogeneous network structures and operating conditions. This includes multi-task and cross-network learning for both steady-state and dynamic surrogate models, as well as self-supervised and optimization-generated training pipelines. The broader objective is to develop learning methods that preserve physical structure while enabling fast and adaptive decision-making under uncertainty.
     design:
       columns: '1'
   
@@ -50,12 +51,9 @@ sections:
       title: 'Large-scale Optimization'
       subtitle: ''
       text: |
-        This research area examines how large-scale optimization problems can be formulated and solved when problem size, uncertainty, temporal resolution, or structural complexity render direct solution approaches impractical. A central theme is understanding how modeling choices affect computational tractability, and how this relationship can be exploited to design more efficient and reliable solution methods.
+        This research area examines how large-scale optimization problems can be formulated and solved when high-fidelity models are too expensive to use directly. A central theme is the design of optimization algorithms that operate with adaptive parametric approximations of complex system behavior, allowing richer physical models to be incorporated without sacrificing scalability.
 
-        We develop structure-aware formulations and algorithms that exploit properties such as network topology, sparsity, and decomposition across time and scenarios. These ideas support scalable solution strategies and computational pipelines that preserve key operational, physical, and economic characteristics of the underlying problems.
-
-        The resulting modeling and algorithmic tools are designed to apply broadly to large-scale constrained optimization problems, including those arising in supply chains, infrastructure planning, and resource allocation.
-
-      design:
-        columns: '1'
+        I develop decomposition methods, stochastic optimization algorithms, and structure-aware formulations that exploit network topology, sparsity, and separability across time and scenarios. Particular interests include the analysis of optimization problems with evolving surrogate constraints, convergence of decomposition methods under adaptive approximations, and computational pipelines that couple optimization with learned low-fidelity models. These ideas support scalable decision-making for power systems and other large-scale constrained optimization problems.
+    design:
+      columns: '1'
 ---
