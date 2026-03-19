@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "We are a research group in the Department of Electrical, Computer, and Energy Engineering at the University of Colorado Boulder. Our work focuses on the development of data-driven and model-based theory, algorithms, and computational tools at the intersection of optimization, machine learning, and energy systems. We study large-scale decision-making problems under uncertainty, motivated by challenges in power system operation, planning, and market design, while developing methods that are broadly applicable across diverse scientific and industrial domains."
+    description: "Research group at CU Boulder developing optimization and AI methods for decision-making under uncertainty, with applications in energy systems, infrastructure networks, and large-scale operations."
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
