@@ -126,7 +126,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: "Decision and Energy Systems Group"
+    title: "Decision Intelligence Lab"
     # For local_business identity type only
     location:
       address:
