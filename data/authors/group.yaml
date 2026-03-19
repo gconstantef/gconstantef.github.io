@@ -12,9 +12,7 @@ status:
   icon:
 role: ''
 bio: |
-  Welcome! We are a research group in the Department of Electrical, Computer, and Energy Engineering at the University of Colorado Boulder. We develop theory, algorithms, and computational tools for large-scale decision-making under uncertainty, combining data-driven and model-based approaches at the interface of optimization and machine learning.
-  
-  Our work is motivated by challenges in power and energy systems, with an emphasis on scalable, reliable, and interpretable methods. At the same time, the frameworks we develop are broadly applicable to complex engineered and socio-technical systems, including infrastructure networks, supply chains, and large-scale operations.
+  Welcome! We are a research group in the Department of Electrical, Computer, and Energy Engineering at the University of Colorado Boulder. We develop theory, algorithms, and computational tools for decision-making under uncertainty, integrating data-driven and model-based approaches at the interface of optimization and artificial intelligence. Our work focuses on scalable, reliable, and interpretable methods for energy systems, infrastructure networks, and large-scale decision-making.
 
 affiliations:
   - name: University of Colorado Boulder
