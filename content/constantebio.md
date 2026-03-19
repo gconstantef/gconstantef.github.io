@@ -29,7 +29,7 @@ sections:
       headings:
         about: About me
         education: ''
-        interests: Research interests
+        interests: Research expertise
     design:
       name:
         size: md
