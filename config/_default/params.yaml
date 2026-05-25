@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Decision Intelligence Lab"
+    name: "BOLD Lab"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "Research group at CU Boulder developing optimization and AI methods for decision-making under uncertainty, with applications in energy systems, infrastructure networks, and large-scale operations."
+    description: "Research group at CU Boulder developing optimization and AI methods for decision-making, with applications in energy systems, infrastructure networks, and large-scale operations."
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -126,7 +126,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: "Decision Intelligence Lab"
+    title: "BOLD Lab"
     # For local_business identity type only
     location:
       address:
