@@ -25,7 +25,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: static/uploads/CV_Gonzalo_Constante.pdf
+        url: uploads/CV_Gonzalo_Constante.pdf
       headings:
         about: About me
         education: ''
