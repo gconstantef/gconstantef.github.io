@@ -18,7 +18,7 @@ sections:
       title: 'Research'
       subtitle: ''
       text: |
-        My research develops models, theory, and algorithms for constrained decision-making in large-scale networked systems under uncertainty. The work lies at the intersection of mathematical optimization, machine learning, and control, with an emphasis on approaches that remain grounded in physical constraints, operational structure, and tractable computation. While power and energy systems are a central application domain, the methods are designed to extend to a broader class of networked and constrained decision problems.
+        Our research develops models, theory, and algorithms for constrained decision-making in large-scale systems under uncertainty. The work lies at the intersection of mathematical optimization, machine learning, artificial intelligence, and control, with an emphasis on approaches that remain grounded in physical constraints, operational structure, and tractable computation. While power and energy systems are a central application domain, the methods are designed to extend to a broader class of networked and constrained decision problems.
 
         A current focus of my research is the development of adaptive low-fidelity surrogate models that approximate complex steady-state and dynamic system behavior while remaining compatible with large-scale optimization and learning pipelines. This includes work on parametric surrogate modeling, decomposition and stochastic optimization algorithms with adaptive models, and graph-based learning methods for transferring these models across networks, operating regimes, and decision tasks.
     design:
