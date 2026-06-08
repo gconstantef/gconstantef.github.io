@@ -37,6 +37,7 @@ sections:
       text: |
         <div style="font-size: 16px;">
           <ul>
+          <li> <strong>Jun. 4, 2026:</strong> Award! Our paper “Diagnosing Infeasible Optimization Problems Using Large Language Models,” coauthored with Hao Chen and Can Li, has been selected as the 2026 <em>INFOR Best Paper</em>.</li>
           <li> <strong>Jan. 21, 2026:</strong> Accepted! Our paper “A Quadratically-Constrained Convex Approximation for the AC Optimal Power Flow,” coauthored with Can Li, has been accepted for publication in <em>Optimization and Engineering</em>.</li>
           <li> <strong>Jan. 1, 2026:</strong> Gonzalo joined the Department of Electrical, Computer and Energy Engineering at CU Boulder as an Assistant Professor!</li>
           <li> <strong>Dec. 5, 2025:</strong> Gonzalo presented our paper “Enforcing Hard Linear Constraints in Deep Learning Models with Decision Rules,” coauthored with Can Li and Hao Chen, at <em>Advances in Neural Information Processing Systems (NeurIPS)</em> in San Diego.</li>
