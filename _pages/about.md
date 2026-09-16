@@ -18,7 +18,7 @@ latest_posts:
 # Boulder Optimization, Learning, and Decision Lab
 
 <div class="lab-tagline">
-Optimization · Machine Learning · Decision-Making Under Uncertainty
+Power and Energy Systems · Optimization · Machine Learning · Decision-Making Under Uncertainty
 </div>
 
 <div class="lab-home-image">
