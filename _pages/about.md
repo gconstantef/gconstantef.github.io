@@ -63,3 +63,17 @@ Welcome! We are a research group in the Department of Electrical, Computer and E
   }
 }
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navbarContainer = document.querySelector("#navbar .container");
+
+  if (navbarContainer && !navbarContainer.querySelector(".navbar-brand")) {
+    const brand = document.createElement("a");
+    brand.className = "navbar-brand title font-weight-lighter";
+    brand.href = "{{ '/' | relative_url }}";
+    brand.textContent = "BOLD Lab";
+    navbarContainer.prepend(brand);
+  }
+});
+</script>
