@@ -13,7 +13,7 @@ nav_order: 2
     We develop <strong>theory, algorithms, and computational models for large-scale decision-making under uncertainty</strong> at the intersection of <strong>optimization and machine learning</strong>.
   </p>
   <p>
-    Power and energy systems are a central application area of our work, while the methods we develop extend broadly to complex engineered systems, infrastructure networks, and operations problems.
+    Power and energy systems are a primary application area of our work, while the methods we develop extend broadly to infrastructure networks, and science and engineering problems.
   </p>
 </section>
 
@@ -44,7 +44,7 @@ nav_order: 2
   <div class="theme-content">
     <h2>Power &amp; Energy Systems</h2>
     <p>
-      Power and energy systems provide a central testbed for our methodological research. We develop scalable optimization and learning approaches for system operations and planning, security, resilience and restoration, electricity markets, and emerging energy-intensive infrastructure. Our work seeks to bridge physically meaningful models with computational methods that can operate at realistic system scales.
+      Power and energy systems provide a central testbed for our methodological research. We develop scalable optimization and learning approaches for system operations and planning, security, resilience and restoration, electricity markets, and emerging energy-intensive infrastructure. Our work seeks to bridge physics-based and data-driven models with computational methods that can operate at realistic system scales.
     </p>
     <p class="theme-keywords">Operations &amp; planning · security &amp; resilience · electricity markets · energy infrastructure</p>
   </div>
