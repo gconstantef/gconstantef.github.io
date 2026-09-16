@@ -1,5 +1,5 @@
 ---
-title: OptiChat: Bridging Optimization Models and Practitioners with Large Language Models
+title: "OptiChat: Bridging Optimization Models and Practitioners with Large Language Models"
 authors:
 - Hao Chen
 - Gonzalo E. Constante-Flores
