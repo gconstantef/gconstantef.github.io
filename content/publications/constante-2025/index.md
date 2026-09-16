@@ -56,7 +56,7 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
 <!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
