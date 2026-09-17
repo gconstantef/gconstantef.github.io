@@ -26,7 +26,9 @@ nav_order: 3
       <a href="https://scholar.google.com/citations?hl=en&amp;user=KFCcT3MAAAAJ" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i> Scholar</a>
       <a href="https://orcid.org/0000-0002-9668-5889" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i> ORCID</a>
       <a href="https://www.linkedin.com/in/gconstantef/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-      <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" target="_blank"><i class="fa-solid fa-file-pdf"></i> CV</a>
+      <a href="{{ '/assets/pdf/gonzalo-constante-cv.pdf' | relative_url }}" target="_blank"><i class="fa-solid fa-file-pdf"></i> CV</a>
+      <a href="{{ '/assets/img/gonzalo-constante-headshot.jpg' | relative_url }}" target="_blank">
+       <i class="fa-solid fa-camera"></i> Headshot</a>
     </div>
 
     <p>I am an Assistant Professor in the Department of Electrical, Computer, and Energy Engineering at the University of Colorado Boulder. Prior to joining CU Boulder, I was a Postdoctoral Scholar at Purdue University and a Visiting Researcher at the University of Waterloo. I received my Ph.D. and M.S. degrees in Electrical and Computer Engineering from The Ohio State University.</p>
