@@ -67,21 +67,11 @@ nav_order: 3
   <div class="member member-with-photo">
     <img
       class="member-photo"
-      src="{{ '/assets/img/people/xinyi-su.jpg' | relative_url }}"
-      alt="Xinyi Su"
+      src="{{ '/assets/img/people/ellis-johnson.jpg' | relative_url }}"
+      alt="Ellis Johnson"
     >
-    <h3>Xinyi Su</h3>
-    <p>B.S. Student · Computer Science</p>
-  </div>
-
-  <div class="member">
-    <h3>Miles Reigel</h3>
+    <h3>Ellis Johnson</h3>
     <p>B.S. Student · Electrical Engineering</p>
-  </div>
-
-  <div class="member">
-    <h3>Pranav Vinoth</h3>
-    <p>B.S. Student · Computer Engineering</p>
   </div>
 
   <div class="member">
@@ -90,8 +80,23 @@ nav_order: 3
   </div>
 
   <div class="member">
-    <h3>Ellis Johnson</h3>
+    <h3>Miles Reigel</h3>
     <p>B.S. Student · Electrical Engineering</p>
+  </div>
+
+  <div class="member member-with-photo">
+    <img
+      class="member-photo"
+      src="{{ '/assets/img/people/xinyi-su.jpg' | relative_url }}"
+      alt="Xinyi Su"
+    >
+    <h3>Xinyi Su</h3>
+    <p>B.S. Student · Computer Science</p>
+  </div>
+
+  <div class="member">
+    <h3>Pranav Vinoth</h3>
+    <p>B.S. Student · Computer Engineering</p>
   </div>
 
 </div>
