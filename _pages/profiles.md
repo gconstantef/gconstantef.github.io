@@ -45,12 +45,15 @@ nav_order: 3
 
 <h2>Postdoctoral Scholar</h2>
 
-<div class="member-list">
-  <div class="member">
+<div class="member member-with-photo">
+    <img
+      class="member-photo"
+      src="{{ '/assets/img/people/julio-lopez.jpg' | relative_url }}"
+      alt="Julio López"
+    >
     <h3>Julio López</h3>
-    <p>Postdoctoral Scholar</p>
+    <p>Postdoctoral Scholar · Electrical Engineering</p>
   </div>
-</div>
 
 <h2>Students</h2>
 
