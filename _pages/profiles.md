@@ -64,13 +64,11 @@ nav_order: 3
   <div class="member member-with-photo">
     <img
       class="member-photo"
-      src="{{ '/assets/img/xinyi-su.jpg' | relative_url }}"
+      src="{{ '/assets/img/people/xinyi-su.jpg' | relative_url }}"
       alt="Xinyi Su"
     >
-    <div class="member-info">
-      <h3>Xinyi Su</h3>
-      <p>B.S. Student · Computer Science</p>
-    </div>
+    <h3>Xinyi Su</h3>
+    <p>B.S. Student · Computer Science</p>
   </div>
 
   <div class="member">
@@ -175,9 +173,9 @@ We welcome students interested in optimization, machine learning, and their appl
 /* Group members */
 .member-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 3rem;
-  row-gap: 1.25rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 2rem;
+  row-gap: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -186,7 +184,7 @@ We welcome students interested in optimization, machine learning, and their appl
 }
 
 .member {
-  padding-bottom: 0.7rem;
+  padding-bottom: 0.8rem;
   border-bottom: 1px solid rgba(128, 128, 128, 0.18);
 }
 
@@ -200,31 +198,34 @@ We welcome students interested in optimization, machine learning, and their appl
   color: var(--global-text-color-light, #666);
 }
 
-/* Members with profile photos */
-.member-with-photo {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
+/* Student profile photos */
 .member-photo {
-  width: 90px;
-  height: 90px;
-  flex: 0 0 90px;
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
+  margin-bottom: 0.8rem;
   border-radius: 0.35rem;
 }
 
-.member-info {
-  min-width: 0;
+.member-with-photo h3 {
+  margin-top: 0;
 }
 
 .join-text {
   max-width: 50rem;
 }
 
-/* Mobile layout */
+/* Tablet */
+@media (max-width: 850px) {
+  .member-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
 @media (max-width: 700px) {
   .pi-profile {
     grid-template-columns: 1fr;
@@ -237,6 +238,10 @@ We welcome students interested in optimization, machine learning, and their appl
 
   .member-grid {
     grid-template-columns: 1fr;
+  }
+
+  .member-photo {
+    max-width: 180px;
   }
 }
 </style>
