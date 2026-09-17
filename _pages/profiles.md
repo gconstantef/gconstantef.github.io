@@ -198,19 +198,27 @@ We welcome students interested in optimization, machine learning, and their appl
   color: var(--global-text-color-light, #666);
 }
 
-/* Student profile photos */
+/* Members with profile photos */
+.member-with-photo {
+  text-align: center;
+}
+
 .member-photo {
   display: block;
   width: 180px;
   height: 180px;
   object-fit: cover;
   object-position: center;
-  margin-bottom: 0.8rem;
+  margin: 0 auto 0.8rem;
   border-radius: 50%;
 }
 
 .member-with-photo h3 {
-  margin-top: 0;
+  margin: 0 0 0.2rem;
+}
+
+.member-with-photo p {
+  margin: 0;
 }
 
 .join-text {
@@ -237,10 +245,6 @@ We welcome students interested in optimization, machine learning, and their appl
 
   .member-grid {
     grid-template-columns: 1fr;
-  }
-
-  .member-photo {
-    max-width: 180px;
   }
 }
 </style>
