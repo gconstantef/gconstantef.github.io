@@ -27,8 +27,7 @@ nav_order: 3
       <a href="https://orcid.org/0000-0002-9668-5889" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i> ORCID</a>
       <a href="https://www.linkedin.com/in/gconstantef/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
       <a href="{{ '/assets/pdf/gonzalo-constante-cv.pdf' | relative_url }}" target="_blank"><i class="fa-solid fa-file-pdf"></i> CV</a>
-      <a href="{{ '/assets/img/gonzalo-constante-headshot.jpg' | relative_url }}" target="_blank">
-       <i class="fa-solid fa-camera"></i> Headshot</a>
+      <a href="{{ '/assets/img/gonzalo-constante-headshot.jpg' | relative_url }}" target="_blank"><i class="fa-solid fa-camera"></i> Headshot</a>
     </div>
 
     <p>I am an Assistant Professor in the Department of Electrical, Computer, and Energy Engineering at the University of Colorado Boulder. Prior to joining CU Boulder, I was a Postdoctoral Scholar at Purdue University and a Visiting Researcher at the University of Waterloo. I received my Ph.D. and M.S. degrees in Electrical and Computer Engineering from The Ohio State University.</p>
@@ -56,14 +55,22 @@ nav_order: 3
 <h2>Students</h2>
 
 <div class="member-grid">
+
   <div class="member">
     <h3>André Quisaguano</h3>
     <p>Ph.D. Student</p>
   </div>
 
-  <div class="member">
-    <h3>Xinyi Su</h3>
-    <p>B.S. Student · Computer Science</p>
+  <div class="member member-with-photo">
+    <img
+      class="member-photo"
+      src="{{ '/assets/img/xinyi-su.jpg' | relative_url }}"
+      alt="Xinyi Su"
+    >
+    <div class="member-info">
+      <h3>Xinyi Su</h3>
+      <p>B.S. Student · Computer Science</p>
+    </div>
   </div>
 
   <div class="member">
@@ -85,6 +92,7 @@ nav_order: 3
     <h3>Ellis Johnson</h3>
     <p>B.S. Student · Electrical Engineering</p>
   </div>
+
 </div>
 
 <h2>Join the Group</h2>
@@ -106,6 +114,7 @@ We welcome students interested in optimization, machine learning, and their appl
   margin-bottom: 1.2rem;
 }
 
+/* Principal Investigator */
 .pi-profile {
   display: grid;
   grid-template-columns: 210px minmax(0, 1fr);
@@ -163,6 +172,7 @@ We welcome students interested in optimization, machine learning, and their appl
   line-height: 1.5;
 }
 
+/* Group members */
 .member-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -190,10 +200,31 @@ We welcome students interested in optimization, machine learning, and their appl
   color: var(--global-text-color-light, #666);
 }
 
+/* Members with profile photos */
+.member-with-photo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.member-photo {
+  width: 90px;
+  height: 90px;
+  flex: 0 0 90px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.35rem;
+}
+
+.member-info {
+  min-width: 0;
+}
+
 .join-text {
   max-width: 50rem;
 }
 
+/* Mobile layout */
 @media (max-width: 700px) {
   .pi-profile {
     grid-template-columns: 1fr;
