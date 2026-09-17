@@ -43,7 +43,7 @@ nav_order: 3
   </div>
 </div>
 
-<h2>Postdoctoral Scholar</h2>
+<h2>Postdoctoral Scholars</h2>
 
 <div class="member member-with-photo">
     <img
