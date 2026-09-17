@@ -201,13 +201,12 @@ We welcome students interested in optimization, machine learning, and their appl
 /* Student profile photos */
 .member-photo {
   display: block;
-  width: 100%;
-  max-width: 180px;
-  aspect-ratio: 1 / 1;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   object-position: center;
   margin-bottom: 0.8rem;
-  border-radius: 0.35rem;
+  border-radius: 50%;
 }
 
 .member-with-photo h3 {
