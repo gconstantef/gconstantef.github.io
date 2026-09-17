@@ -59,9 +59,14 @@ nav_order: 3
 
 <div class="member-grid">
 
-  <div class="member">
+  <div class="member member-with-photo">
+    <img
+      class="member-photo"
+      src="{{ '/assets/img/people/andre-quisaguano.jpg' | relative_url }}"
+      alt="André Quisaguano"
+    >
     <h3>André Quisaguano</h3>
-    <p>Ph.D. Student</p>
+    <p>Ph.D. Student · Electrical Engineering</p>
   </div>
 
   <div class="member member-with-photo">
