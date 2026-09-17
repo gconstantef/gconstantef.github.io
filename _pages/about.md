@@ -25,7 +25,11 @@ Power and Energy Systems · Optimization · Machine Learning · Decision-Making 
   <img src="{{ '/assets/img/group.jpg' | relative_url }}" alt="University of Colorado Boulder">
 </div>
 
+<div class="home-intro" markdown="1">
+
 Welcome! We are a research group in the Department of Electrical, Computer and Energy Engineering at the **University of Colorado Boulder**. We develop **theory, algorithms, and models for large-scale decision-making under uncertainty** at the intersection of **optimization and machine learning**. Power and energy systems are a primary application area of our work, but we are broadly interested in **science and engineering applications** involving complex decision-making problems.
+
+</div>
 
 <style>
 /* Hide the automatic al-folio page header while keeping BOLD Lab in the navbar. */
@@ -55,6 +59,11 @@ Welcome! We are a research group in the Department of Electrical, Computer and E
   object-position: center;
   margin: 0 auto;
   border-radius: 0.4rem;
+}
+
+.home-intro {
+  text-align: justify;
+  hyphens: auto;
 }
 
 @media (max-width: 700px) {
