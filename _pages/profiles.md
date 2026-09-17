@@ -18,7 +18,7 @@ nav_order: 3
   <div class="pi-content">
     <h3>Gonzalo E. Constante Flores</h3>
     <p class="pi-title"><strong>Assistant Professor</strong><br>
-    Electrical, Computer &amp; Energy Engineering<br>
+    Department of Electrical, Computer &amp; Energy Engineering<br>
     University of Colorado Boulder</p>
 
     <div class="pi-links">
