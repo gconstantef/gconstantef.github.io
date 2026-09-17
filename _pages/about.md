@@ -37,20 +37,6 @@ Welcome! We are a research group in the Department of Electrical, Computer and E
   display: none;
 }
 
-/* Capitalize homepage section headings */
-.news h2,
-.publications h2 {
-  text-transform: capitalize;
-}
-
-.lab-tagline {
-  margin-top: -0.5rem;
-  margin-bottom: 1.25rem;
-  font-size: 1.05rem;
-  font-weight: 500;
-  color: var(--global-text-color-light);
-}
-
 .lab-tagline {
   margin-top: -0.5rem;
   margin-bottom: 1.25rem;
@@ -89,6 +75,8 @@ Welcome! We are a research group in the Department of Electrical, Computer and E
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+
+  /* Add BOLD Lab to the navbar */
   const navbarContainer = document.querySelector("#navbar .container");
 
   if (navbarContainer && !navbarContainer.querySelector(".navbar-brand")) {
@@ -98,5 +86,19 @@ document.addEventListener("DOMContentLoaded", function () {
     brand.textContent = "BOLD Lab";
     navbarContainer.prepend(brand);
   }
+
+  /* Capitalize homepage section headings */
+  document.querySelectorAll("h2").forEach(function (heading) {
+    const text = heading.textContent.trim().toLowerCase();
+
+    if (text === "news") {
+      heading.textContent = "News";
+    }
+
+    if (text === "selected publications") {
+      heading.textContent = "Selected Publications";
+    }
+  });
+
 });
 </script>
