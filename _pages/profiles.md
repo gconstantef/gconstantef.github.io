@@ -122,10 +122,12 @@ We welcome students interested in optimization, machine learning, and their appl
 }
 
 .pi-photo img {
-  width: 100%;
-  height: auto;
   display: block;
-  border-radius: 0.35rem;
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
 }
 
 .pi-content h3 {
@@ -239,8 +241,9 @@ We welcome students interested in optimization, machine learning, and their appl
     gap: 1.2rem;
   }
 
-  .pi-photo {
-    max-width: 180px;
+  .pi-photo img {
+    width: 180px;
+    height: 180px;
   }
 
   .member-grid {
