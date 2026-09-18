@@ -99,7 +99,12 @@ nav_order: 3
     <p>B.S. Student · Computer Science</p>
   </div>
 
-  <div class="member">
+  <div class="member member-with-photo">
+    <img
+      class="member-photo"
+      src="{{ '/assets/img/people/pranav-vinoth.jpg' | relative_url }}"
+      alt="Pranav Vinoth"
+    >
     <h3>Pranav Vinoth</h3>
     <p>B.S. Student · Computer Engineering</p>
   </div>
