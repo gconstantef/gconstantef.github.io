@@ -72,20 +72,21 @@ nav_order: 3
   <div class="member member-with-photo">
     <img
       class="member-photo"
+      src="{{ '/assets/img/people/jayal-dhakal.jpg' | relative_url }}"
+      alt="Jayal Dhakal"
+    >
+    <h3>Jayal Dhakal</h3>
+    <p>B.S. Student · Electrical Engineering<br>
+       B.A. Student · Statistics and Data Science</p>
+  </div>
+
+  <div class="member member-with-photo">
+    <img
+      class="member-photo"
       src="{{ '/assets/img/people/ellis-johnson.jpg' | relative_url }}"
       alt="Ellis Johnson"
     >
     <h3>Ellis Johnson</h3>
-    <p>B.S. Student · Electrical Engineering</p>
-  </div>
-
-  <div class="member">
-    <h3>Alvin Nguyen</h3>
-    <p>B.S. Student · Applied Mathematics</p>
-  </div>
-
-  <div class="member">
-    <h3>Miles Reigel</h3>
     <p>B.S. Student · Electrical Engineering</p>
   </div>
 
@@ -107,6 +108,16 @@ nav_order: 3
     >
     <h3>Pranav Vinoth</h3>
     <p>B.S. Student · Computer Engineering</p>
+  </div>
+
+  <div class="member">
+    <h3>Alvin Nguyen</h3>
+    <p>B.S. Student · Applied Mathematics</p>
+  </div>
+
+  <div class="member">
+    <h3>Miles Reigel</h3>
+    <p>B.S. Student · Electrical Engineering</p>
   </div>
 
 </div>
