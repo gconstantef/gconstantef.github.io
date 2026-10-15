@@ -77,7 +77,7 @@ nav_order: 3
     >
     <h3>Jayal Dhakal</h3>
     <p>B.S. Student · Electrical Engineering<br>
-       B.A. Student · Statistics and Data Science</p>
+       B.A. Student · Statistics &amp; Data Science</p>
   </div>
 
   <div class="member member-with-photo">
@@ -87,6 +87,18 @@ nav_order: 3
       alt="Ellis Johnson"
     >
     <h3>Ellis Johnson</h3>
+    <p>B.S. Student · Electrical Engineering</p>
+  </div>
+
+  <div class="member member-with-photo">
+    <div class="member-placeholder">AN</div>
+    <h3>Alvin Nguyen</h3>
+    <p>B.S. Student · Applied Mathematics</p>
+  </div>
+
+  <div class="member member-with-photo">
+    <div class="member-placeholder">MR</div>
+    <h3>Miles Reigel</h3>
     <p>B.S. Student · Electrical Engineering</p>
   </div>
 
@@ -109,17 +121,6 @@ nav_order: 3
     <h3>Pranav Vinoth</h3>
     <p>B.S. Student · Computer Engineering</p>
   </div>
-
-  <div class="member">
-    <h3>Alvin Nguyen</h3>
-    <p>B.S. Student · Applied Mathematics</p>
-  </div>
-
-  <div class="member">
-    <h3>Miles Reigel</h3>
-    <p>B.S. Student · Electrical Engineering</p>
-  </div>
-
 </div>
 
 <h2>Join the Group</h2>
@@ -250,6 +251,20 @@ We welcome students interested in optimization, machine learning, and their appl
 
 .member-with-photo p {
   margin: 0;
+}
+
+.member-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 0.8rem;
+  border-radius: 50%;
+  background: #e8e8e8;
+  color: #666;
+  font-size: 2.5rem;
+  font-weight: 400;
 }
 
 .join-text {
